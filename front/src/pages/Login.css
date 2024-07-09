@@ -1,0 +1,10 @@
+.login {
+  width: 100%;
+  height: 92.5vh;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

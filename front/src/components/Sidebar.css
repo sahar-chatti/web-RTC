@@ -1,0 +1,76 @@
+.member-status-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member-status {
+  margin-bottom: 0;
+  position: relative;
+}
+.sidebar-online-status {
+  color: green;
+}
+
+.sidebar-offline-status {
+  color: rgb(255, 255, 255);
+}
+
+.sidebar-online-status,
+.sidebar-offline-status {
+  font-size: 11px;
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 12px;
+}
+
+.input {
+  
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 0 10px 0 10px;
+  background-color: black;
+  color: white;
+  outline: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bt {
+  width: 125px;
+  height: 50px;
+  cursor: pointer;
+  background: #333;
+  border: none;
+  border-radius: 10px;
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444,
+    inset -5px -5px 10px #222;
+  color: #ffffff;
+  font-size: 16px;
+  transition: 500ms;
+}
+
+.bt:hover {
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222,
+    inset -5px -5px 10px #444;
+  font-size: 15px;
+}
+
+.bt:focus {
+  outline: none;
+}
+
+.blue:hover {
+  color: #71b7f0;
+  text-shadow: 0px 0px 10px #71b7f0;
+}
